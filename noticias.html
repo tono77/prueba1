@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -17,42 +19,59 @@
   <body>
 
     <!-- Navbar -->
-    <nav>
-      <ul>
-        <li>Brand</li>
-        <li>Nosotros</li>
-        <li>Noticias</li>
-      </ul>
+    <nav class="navbar navbar-default navbar-fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand navbar-left" href="index.html">
+          <img src="images/logo.jpeg" class="logo" alt="">
+        </a>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Carrusel -->
     <div class="jumbotron">
-      <h1>Noticias</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1>Noticias</h1>
+            <img src="images/ad468x60.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
     <!-- Contenido -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 col-md-offset-1">
-          <h3>Noticia 1</h3>
+          <h3>Capacitación de Voluntarias Taller 2015</h3>
           <div class="row">
             <div class="col-md-2">
-              <img src="images/admanoscreando-150x150.png" alt="">
+              <img src="images/websitecap-150x150.jpg" class="img-rounded img-responsive" alt="">
             </div>
             <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>En las dependencias de la Universidad San Sebastián, Sede Bellavista se está realizando el proyecto de voluntariado con las Alumnas de la Carrera de Educación Diferencial. En este proceso, aparte de colaborar en los Talleres de Teatro y Manos Creando, las alumnas recibirán permanente capaci...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Ver Más</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-12 col-md-offset-1">
-          <h3>Noticia 2</h3>
+          <h3>Manos Creando, la nueva iniciativa de FAC</h3>
           <div class="row">
             <div class="col-md-2">
-              <img src="images/etica-y-comportamiento-de-la-sociedad-150x150.jpg" alt="">
+              <img src="images/admanoscreando-150x150.png" class="img-rounded img-responsive" alt="">
             </div>
             <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Cuando nuestr@s hij@s son diagnosticados con un Trastorno del Espectro Autista, y cuando las palabras no vienen en auxilio de sus pensamientos, una manera de ayudarles con la expresión de sus emociones es a través del Arte. Es por esto que si tienes un hijo o hija entre 5 y 14 años y deseas qu...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Ver Más</a>
             </div>
           </div>
         </div>
@@ -60,25 +79,27 @@
 
       <div class="row">
         <div class="col-md-12 col-md-offset-1">
-          <h3>Noticia 3</h3>
+          <h3>Carta a mi Jorgito</h3>
           <div class="row">
             <div class="col-md-2">
-              <img src="images/Jorges-150x150.jpg" alt="">
+              <img src="images/Jorges-150x150.jpg" class="img-rounded img-responsived" alt="">
             </div>
             <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Querido Jorgito: Desde el momento que te tomé por primera vez en mis brazos supe que ibas a ser un niño muy especial, querido, esperado y por sobre todo,  mi niño. Con el paso del tiempo fuiste creciendo, y como todo niño te fuiste enfrentando a los desafíos que te colocaba la vida casi sin...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Ver Más</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-12 col-md-offset-1">
-          <h3>Noticia 4</h3>
+          <h3>Inicio de talleres de Teatro</h3>
           <div class="row">
             <div class="col-md-2">
-              <img src="images/websitecap-150x150.jpg" alt="">
+              <img src="images/TALLER-HABILIDADES-SOCIALES-16-150x150.jpg" alt="" class="img-rounded img-responsive">
             </div>
             <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Luego de dos exitosos años en el trabajo en nuestros talleres"Teatro" y "Manos Creando", teniendo ambos por objetivo el entregar herramientas para el desarrollo de  habilidades sociales en niños y adolescentes con condiciones del espectro autista a través del arte, estamos próximos a iniciar la...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Ver Más</a>
             </div>
           </div>
         </div>
@@ -86,29 +107,36 @@
 
     </div>
 
+
     <!-- Footer -->
     <div class="jumbotron">
       <div class="row">
-        <div class="container col-md-4 col-md-offset-1">
+        <div class="container col-md-2 col-md-offset-1">
           <!-- glyphicons -->
           <p>@asperger</p>
           <p>+56telefono</p>
         </div>
 
-        <div class="container col-md-4">
-          <!-- mapa -->
-        </div>
 
-        <div class="container col-md-4">
+
+
+        <div class="container col-md-3">
           <form class="" action="index.html" method="post">
             <p>déjanos tu mail</p>
             <input type="email" name="" value="">
             <button type="submit" class="btn btn-default">Contactar!</button>
           </form>
         </div>
+
+
+        <div class="container col-md-5 text-right">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6676.400934151995!2d-70.72920268993933!3d-33.20884034676195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73b01089b113121d!2sQuilay+Siena!5e0!3m2!1sen!2scl!4v1506480490873" width="200" height="200" frameborder="0" class="no-border" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
 
     </div>
-    
+
   </body>
 </html>

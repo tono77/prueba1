@@ -1,4 +1,20 @@
-.header{
-  background-image: url('../images/sariana-ximena-513a2ed98eff7.jpg');
-  max-height: 500px;
+.logo{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.image_carousel{
+  max-width: 1550px;
+  max-height: 580px;
+  margin: auto;
+}
+
+.no-border{
+  border:0;
+  border-style: none;
+}
+
+.img_center{
+  padding-top: 50px;
+  margin: auto;
 }
