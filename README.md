@@ -1,1 +1,1 @@
-# prueba1
+#Proyecto de Landing page para fundacion Asperger Chile para el curso de fullstack developer de Bci Labs con Desafío LATAM.
